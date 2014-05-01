@@ -1,0 +1,6 @@
+ /* styles for the custom element itself - lowest specificity */
+  :host { display: block; }
+  /* 
+  style if an ancestor has the different class
+  :host(.different) { } 
+  */
